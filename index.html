@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Repair HP Kalimantan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'primary': '#7e22ce',
+              'secondary': '#9333ea',
+              'background': '#0a090c',
+              'surface': '#121017',
+              'text-primary': '#f9fafb',
+              'text-secondary': '#a0a0b0',
+              'accent': '#a855f7',
+            }
+          }
+        }
+      }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+<body class="text-text-primary">
+    <div class="fixed inset-0 z-[-1] h-screen w-screen bg-cover bg-center" style="background-image: url('https://static.vecteezy.com/system/resources/previews/028/227/184/large_2x/abstract-purple-light-rays-on-black-background-with-lighting-effect-and-bokeh-free-vector.jpg');"></div>
+    <div class="fixed inset-0 z-[-1] bg-background/70"></div>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
